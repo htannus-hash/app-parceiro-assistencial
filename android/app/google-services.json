@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "828197514352",
+    "project_id": "parceiro-assistencial",
+    "storage_bucket": "parceiro-assistencial.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828197514352:android:b260e0e0a47ba1802e18b5",
+        "android_client_info": {
+          "package_name": "br.com.parceiroassistencial.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZX34XdGFLMYMaDO2wpZgWODpJN1YFuIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

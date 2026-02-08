@@ -1,0 +1,45 @@
+name: parceiro_assistencial
+description: App Parceiro Assistencial.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  dio: ^5.3.3
+  flutter_bloc: ^8.1.3
+  get_it: ^7.6.4
+  google_fonts: ^6.1.0
+  mask_text_input_formatter: ^2.5.0
+  font_awesome_flutter: ^10.6.0
+  url_launcher: ^6.2.2
+  webview_flutter: ^4.4.2
+  equatable: ^2.0.5
+  dartz: ^0.10.1
+  intl: ^0.19.0
+  local_auth: ^2.1.6
+  shared_preferences: ^2.2.2
+  connectivity_plus: ^5.0.2
+  firebase_core: ^2.24.2
+  firebase_messaging: ^14.7.10
+  firebase_analytics: ^10.7.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo.png"
+  background_color: "#FF7000"
+  adaptive_icon_background: "#FF7000"
+  adaptive_icon_foreground: "assets/logo.png"
+
+flutter:
+  uses-material-design: true

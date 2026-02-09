@@ -2,10 +2,9 @@
 # see: https://developers.google.com/idx/guides/customize-idx-env
 { pkgs, ... }: {
   # Which nixpkgs channel to use.
-  channel = "stable"; # or "unstable"
+  channel = "stable-24.11"; # Corrected channel name
   # Use https://search.nixos.org/packages to find packages
   packages = [
-    pkgs.nodePackages.firebase-tools
     pkgs.jdk17
     pkgs.unzip
     pkgs.flutter

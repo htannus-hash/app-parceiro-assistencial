@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import '../../../../core/theme/app_colors.dart';
-import '../../domain/entities/partner.dart';
-import '../../data/repositories/mock_partner_repository.dart';
+import 'package:parceiro_assistencial/core/theme/app_colors.dart';
+import 'package:parceiro_assistencial/features/home/domain/entities/partner.dart';
+import 'package:parceiro_assistencial/features/home/data/repositories/mock_partner_repository.dart';
 
 class PartnerNetworkPage extends StatefulWidget {
   const PartnerNetworkPage({super.key});

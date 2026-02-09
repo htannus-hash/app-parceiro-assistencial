@@ -2,15 +2,15 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:intl/intl.dart';
-import '../../../../core/theme/app_colors.dart';
-import '../../../../core/network/storage_service.dart';
-import '../../../../core/utils/launcher_utils.dart';
-import '../widgets/smart_card.dart';
-import '../../../telemedicine/presentation/pages/webview_page.dart';
-import '../../../financial/presentation/pages/finance_page.dart';
-import 'partner_network_page.dart';
-import 'profile_page.dart';
-import 'notifications_page.dart';
+import 'package:parceiro_assistencial/core/theme/app_colors.dart';
+import 'package:parceiro_assistencial/core/network/storage_service.dart';
+import 'package:parceiro_assistencial/core/utils/launcher_utils.dart';
+import 'package:parceiro_assistencial/features/home/presentation/widgets/smart_card.dart';
+import 'package:parceiro_assistencial/features/telemedicine/presentation/pages/webview_page.dart';
+import 'package:parceiro_assistencial/features/financial/presentation/pages/finance_page.dart';
+import 'package:parceiro_assistencial/features/home/presentation/pages/partner_network_page.dart';
+import 'package:parceiro_assistencial/features/home/presentation/pages/profile_page.dart';
+import 'package:parceiro_assistencial/features/home/presentation/pages/notifications_page.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});

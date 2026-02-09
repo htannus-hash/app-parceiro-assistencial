@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import '../../../../core/theme/app_colors.dart';
-import '../../domain/entities/boleto.dart';
-import '../../data/repositories/mock_financial_repository.dart';
+import 'package:parceiro_assistencial/core/theme/app_colors.dart';
+import 'package:parceiro_assistencial/features/financial/domain/entities/boleto.dart';
+import 'package:parceiro_assistencial/features/financial/data/repositories/mock_financial_repository.dart';
 
 class FinancePage extends StatefulWidget {
   const FinancePage({super.key});

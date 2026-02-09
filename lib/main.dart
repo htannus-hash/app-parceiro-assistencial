@@ -3,13 +3,13 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import 'core/theme/app_colors.dart';
-import 'core/config/app_config.dart';
-import 'core/network/notification_service.dart';
+import 'package:parceiro_assistencial/core/theme/app_colors.dart';
+import 'package:parceiro_assistencial/core/config/app_config.dart';
+import 'package:parceiro_assistencial/core/network/notification_service.dart';
 
-import 'features/auth/presentation/pages/splash_screen.dart';
-import 'features/auth/presentation/pages/login_page.dart';
-import 'features/home/presentation/pages/home_page.dart';
+import 'package:parceiro_assistencial/features/auth/presentation/pages/splash_screen.dart';
+import 'package:parceiro_assistencial/features/auth/presentation/pages/login_page.dart';
+import 'package:parceiro_assistencial/features/home/presentation/pages/home_page.dart';
 
 // Entry point for Development
 void main() async {

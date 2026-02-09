@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:mask_text_input_formatter/mask_text_input_formatter.dart';
-import '../../../core/theme/app_colors.dart';
-import '../../../core/network/storage_service.dart';
-import '../../../core/utils/biometric_service.dart';
+import 'package:parceiro_assistencial/core/theme/app_colors.dart';
+import 'package:parceiro_assistencial/core/network/storage_service.dart';
+import 'package:parceiro_assistencial/core/utils/biometric_service.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});

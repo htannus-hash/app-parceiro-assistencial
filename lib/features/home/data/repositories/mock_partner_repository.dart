@@ -1,4 +1,4 @@
-import '../domain/entities/partner.dart';
+import 'package:parceiro_assistencial/features/home/domain/entities/partner.dart';
 
 class MockPartnerRepository {
   final List<Partner> _allPartners = [

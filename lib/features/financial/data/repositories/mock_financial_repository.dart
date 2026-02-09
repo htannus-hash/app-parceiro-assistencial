@@ -1,4 +1,4 @@
-import '../domain/entities/boleto.dart';
+import 'package:parceiro_assistencial/features/financial/domain/entities/boleto.dart';
 
 class MockFinancialRepository {
   Future<List<Boleto>> getBoletos() async {

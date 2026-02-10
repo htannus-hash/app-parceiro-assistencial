@@ -125,10 +125,10 @@ class _SmartCardState extends State<SmartCard> with SingleTickerProviderStateMix
                   widget.cardNumber,
                   style: const TextStyle(
                     color: AppColors.white,
-                    fontSize: 22,
+                    fontSize: 20, // Slightly reduced font size
                     fontFamily: 'Courier',
                     fontWeight: FontWeight.w500,
-                    letterSpacing: 2.0,
+                    letterSpacing: 1.0, // Reduced letter spacing
                   ),
                 ),
                 const SizedBox(width: 8),

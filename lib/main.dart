@@ -22,8 +22,16 @@ void main() async {
     useMocks: true,
   ));
 
-  // Initialize Firebase (Files are now present)
-  await Firebase.initializeApp();
+  // Initialize Firebase with explicit options to avoid resource issues in some environments
+  await Firebase.initializeApp(
+    options: const FirebaseOptions(
+      apiKey: 'AIzaSyBZX34XdGFLMYMaDO2wpZgWODpJN1YFuIo',
+      appId: '1:828197514352:android:b260e0e0a47ba1802e18b5',
+      messagingSenderId: '828197514352',
+      projectId: 'parceiro-assistencial',
+      storageBucket: 'parceiro-assistencial.firebasestorage.app',
+    ),
+  );
   
   // Set background messaging handler
   FirebaseMessaging.onBackgroundMessage(NotificationService.backgroundHandler);

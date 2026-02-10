@@ -18,13 +18,13 @@ apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
     namespace "br.com.parceiroassistencial.app"
-    compileSdkVersion 35
+    compileSdkVersion 34
     ndkVersion flutter.ndkVersion
 
     defaultConfig {
         applicationId "br.com.parceiroassistencial.app"
         minSdkVersion 21
-        targetSdkVersion 35
+        targetSdkVersion 34
         versionCode 1
         versionName "1.0.0"
     }
